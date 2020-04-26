@@ -4,6 +4,13 @@
 
 Build steps can be found in [this answer on SO](https://stackoverflow.com/a/59957172/2650249).
 
+### Installing using PyPI index proxy
+
+```sh
+$ pip install spacy --extra-index-url=https://hoefling.io/pypi
+```
+`https://hoefling.io/pypi` simply proxies `pip install` requests to GitHub release page.
+
 ### Installing from Github releases
 
 ```sh
